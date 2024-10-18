@@ -31,12 +31,25 @@ config:
       addToAllBundles:
         label: 'SEO Image'
         description: 'Use this field to overwrite the default image for SEO meta tags.'
+    # To set settings on this field we need to also hit the field instances
+    # after they have been created.
+    field.field.node.*.sa_seo_image:
+      setSettings:
+        handler: 'default:media'
+        handler_settings:
+          target_bundles:
+            image: image
+          sort:
+            field: _none
+            direction: ASC
+          auto_create: false
+          auto_create_bundle: ''
     field.storage.node.sa_seo_page_title:
       addToAllBundles:
         label: 'SEO Title'
         description: 'Use this field to overwrite the default HTML page title for SEO.'
+    # Place the fields on the form.
     core.entity_form_display.node.*.default:
-      # Place the fields on the form.
       setComponents:
         -
           name: sa_robots
