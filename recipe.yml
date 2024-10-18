@@ -11,6 +11,7 @@ install:
   # Contrib.
   - field_group
   - media_library_edit
+  - saplings_custom
 config:
   import:
     media_library: '*'
@@ -20,11 +21,11 @@ config:
       addToAllBundles:
         label: 'Robots meta tag'
         description: ' |
-          <p>Use this field to customize the Robots meta tag if needed.  If you enter nothing here, the default <code>index, follow</code> is assumed.</p>
+          <p>Use this field to customize the Robots meta tag if needed. If you enter nothing here, the default <code>index, follow</code> is assumed.</p>
 
           <p>The robots meta tag lets you utilize a granular, page-specific approach to controlling how an individual page should be indexed and served to users in search results.</p>
 
-          <p>Visit Google <a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives\">Valid indexing and serving rules</a> for a full list of options.</p>'
+          <p>Visit Google <a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives">Valid indexing and serving rules</a> for a full list of options.</p>'
     field.storage.node.sa_seo_description:
       addToAllBundles:
         label: 'SEO Description'

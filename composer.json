@@ -6,6 +6,7 @@
   "require": {
       "drupal/field_group": "*",
       "drupal/media_library_edit": "*",
+      "kanopi/saplings_custom": "*",
       "kanopi/saplings-media": "*"
   }
 }
