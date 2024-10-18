@@ -5,6 +5,7 @@
   "license": "GPL-2.0-or-later",
   "require": {
       "drupal/field_group": "*",
-      "drupal/media_library_edit": "*"
+      "drupal/media_library_edit": "*",
+      "kanopi/saplings-media": "*"
   }
 }
