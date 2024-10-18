@@ -20,12 +20,12 @@ config:
     field.storage.node.sa_robots:
       addToAllBundles:
         label: 'Robots meta tag'
-        description: ' |
+        description: '
           <p>Use this field to customize the Robots meta tag if needed. If you enter nothing here, the default <code>index, follow</code> is assumed.</p>
 
           <p>The robots meta tag lets you utilize a granular, page-specific approach to controlling how an individual page should be indexed and served to users in search results.</p>
 
-          <p>Visit Google <a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives">Valid indexing and serving rules</a> for a full list of options.</p>'
+          <p>Visit Google <a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives" target="_blank">Valid indexing and serving rules</a> for a full list of options.</p>'
     field.storage.node.sa_seo_description:
       addToAllBundles:
         label: 'SEO Description'
@@ -51,7 +51,7 @@ config:
       addToAllBundles:
         label: 'SEO Title'
         description: 'Use this field to overwrite the default HTML page title for SEO.'
-    # Place the fields on the form.
+    # Place the fields on the all default node forms.
     core.entity_form_display.node.*.default:
       setComponents:
         -
@@ -95,7 +95,7 @@ config:
               size: 60
               placeholder: ''
             third_party_settings: {  }
-      # Configure the SEO fields in a tab.
+      # Configure the SEO fields in a tab an all default node forms.
       setThirdPartySettings:
         - module: field_group
           key: group_advanced_seo
