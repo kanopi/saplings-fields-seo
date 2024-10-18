@@ -1,0 +1,8 @@
+name: 'Saplings - SEO fields'
+description: 'Adds Saplings SEO fields on to any content type.'
+type: 'Site'
+recipes:
+  -
+install:
+config:
+  actions:

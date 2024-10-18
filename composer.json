@@ -1,0 +1,20 @@
+{
+  "name": "kanopi/saplings-content-base-seo",
+  "description": "Adds Saplings SEO fields on to any content type.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+      "drupal/access_unpublished": "*",
+      "drupal/events": "*",
+      "drupal/events_calendar": "*",
+      "drupal/events_locations": "*",
+      "drupal/field_group": "*",
+      "drupal/link_attributes": "*",
+      "drupal/publication_date": "*",
+      "drupal/quick_node_clone": "*",
+      "drupal/schema_metatag": "*",
+      "drupal/token": "*",
+      "drupal/token_or": "*",
+      "drupal/view_unpublished": "*"
+  }
+}
