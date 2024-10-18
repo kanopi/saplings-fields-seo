@@ -1,16 +1,14 @@
 name: 'Saplings - SEO fields'
 description: 'Adds Saplings SEO fields on to any content type.'
 type: 'Site'
-recipes:
-  -
 install:
   # Core.
   - media
   - media_library
-  - media_library_edit
   - node
   # Contrib.
   - field_group
+  - media_library_edit
 config:
   import:
     media_library: '*'
