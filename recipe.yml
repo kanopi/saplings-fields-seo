@@ -13,6 +13,11 @@ install:
   - media_library_edit
   - saplings_custom
 config:
+  strict:
+    - field.storage.node.sa_robots
+    - field.storage.node.sa_seo_description
+    - field.storage.node.sa_seo_image
+    - field.storage.node.sa_page-title
   import:
     media_library: '*'
   actions:
