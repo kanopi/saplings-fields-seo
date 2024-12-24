@@ -1,5 +1,5 @@
 {
-  "name": "kanopi/saplings-content-base-seo",
+  "name": "kanopi/saplings-fields-seo",
   "description": "Adds Saplings SEO fields on to any content type.",
   "type": "drupal-recipe",
   "license": "GPL-2.0-or-later",
