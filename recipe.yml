@@ -17,7 +17,7 @@ config:
     - field.storage.node.sa_robots
     - field.storage.node.sa_seo_description
     - field.storage.node.sa_seo_image
-    - field.storage.node.sa_page-title
+    - field.storage.node.sa_page_title
   import:
     media_library: '*'
   actions:
